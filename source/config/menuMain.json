@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/1-tema.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-play-circle",
+    "slug": "cliente",
+    "title": "1. Cliente",
+    "breadcrumb": ["Inicio","cliente"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "cliente",
+        "title": "1.1 Tipos de clientes",
+        "anchor": "tipos"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "cliente",
+        "title": "1.2 Tipología de clientes",
+        "anchor": "tipologia"
+      }
+    ]
+  }
+]
